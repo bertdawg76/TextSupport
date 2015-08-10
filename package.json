@@ -1,0 +1,27 @@
+{
+  "name": "textsupport",
+  "version": "1.0.0",
+  "description": "TextSupport ===========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertdawg76/TextSupport.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertdawg76/TextSupport/issues"
+  },
+  "homepage": "https://github.com/bertdawg76/TextSupport#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "firebase": "^2.2.9",
+    "twilio": "^2.2.1"
+  }
+}
